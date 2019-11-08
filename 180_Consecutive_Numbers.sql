@@ -1,3 +1,5 @@
+-- method 1: using window function 
+
 SELECT DISTINCT num as ConsecutiveNums
 FROM (
     SELECT 
@@ -22,3 +24,26 @@ WHERE num = num2 AND num2 = num3
    2, 1, 2
    2, 2, 1
 */
+
+
+-- method 2: using inner join
+
+SELECT DISTINCT l1.num AS ConsecutiveNums
+FROM logs AS l1
+INNER JOIN logs AS l2
+    ON l2.id = l1.id + 1
+INNER JOIN logs AS l3
+    ON l3.id = l2.id +1 
+WHERE l1.num = l2.num AND l2.num = l3.num
+
+
+/*
+1 1 1
+1 1 2
+1 2 1
+2 1 2
+1 2 2
+2 2 -
+2 -
+*/
+
