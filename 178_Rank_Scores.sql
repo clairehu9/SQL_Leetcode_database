@@ -5,19 +5,16 @@
 -- DENSE_RANK() is a rank with no gaps 
 
 SELECT 
-  Score
-  ,DENSE_RANK() over (ORDER BY Score DESC) AS Rank
-FROM scores
-ORDER BY Score DESC;
+    Score 
+    ,DENSE_RANK()OVER(ORDER BY Score DESC) AS Rank 
+FROM Scores
+
 
 
 -- MySQL
-SELECT
-  Score,
-  @rank := @rank + (@prev <> (@prev := Score)) Rank
-FROM
-  Scores,
-  (SELECT @rank := 0, @prev := -1) init
-ORDER BY Score desc
 
--- https://leetcode.com/problems/rank-scores/discuss/53094/Simple-Short-Fast
+SELECT Scores.Score, Rank
+FROM Scores 
+Left join (Select Score, @Rank:=@Rank+1 as Rank
+  From (Select Distinct Score From Scores Order by Score DESC) S1, (Select @Rank:=0) var) S2 on Scores.Score=S2.Score
+order by Scores.Score desc;
