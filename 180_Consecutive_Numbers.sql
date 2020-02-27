@@ -1,5 +1,21 @@
 -- method 1: using window function 
 
+WITH three_day_log AS(
+SELECT 
+    id
+    ,Num
+    ,LAG(Num,1)OVER(ORDER BY id) AS num2
+    ,LAG(NUM,2)OVER(ORDER BY id) AS num3
+FROM Logs
+)
+
+SELECT DISTINCT t.num AS ConsecutiveNums 
+FROM three_day_log AS t
+WHERE t.num = t.num2
+ AND t.num2 = t.num3
+ 
+ -- OR --
+
 SELECT DISTINCT num as ConsecutiveNums
 FROM (
     SELECT 
