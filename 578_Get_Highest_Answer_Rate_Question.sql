@@ -1,4 +1,4 @@
-
+-- run code result shows accept, but showm wrong answer after submit
 
 SELECT question_id AS survey_log  
 FROM(SELECT 
