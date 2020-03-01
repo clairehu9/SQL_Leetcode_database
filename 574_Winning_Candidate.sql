@@ -1,7 +1,4 @@
-# 574_Winning_Candidate
-# find the name of the winning candidate
-
-
+-- Wrong Answer: 
 
 SELECT Name
 FROM Candidate c
@@ -13,6 +10,32 @@ ON c.id = t.CandidateId
 HAVING MAX(t.num_votes)
 ;
 
-Tricky point: you don't need id from VOTE table
+-- 1. HAVING MAX(t.num_votes) is WRONG!!
+--    MAX() function with Having: having max() >1000, having max() <1000
+
+-- 2. COUNT(CandidateId) is WRONG! Should COUNT(ID)
+
+
+-- Solution 1: using JOIN
+SELECT Name
+FROM Candidate c
+JOIN
+    (SELECT CandidateId
+    FROM Vote 
+    GROUP BY CandidateId
+    ORDER BY COUNT(ID) DESC
+    LIMIT 1) t
+ON c.id = t.CandidateId  
+
+-- Solution 2: using IN
+
+SELECT C.Name FROM Candidate C
+WHERE id = (SELECT CandidateId FROM Vote GROUP BY CandidateId ORDER BY COUNT(id) DESC LIMIT 1); 
+
+
+
+
+
+
 
 
