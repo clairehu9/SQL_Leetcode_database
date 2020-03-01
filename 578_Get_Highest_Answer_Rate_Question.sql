@@ -1,5 +1,3 @@
--- run code result shows accept, but showm wrong answer after submit
-
 SELECT question_id AS survey_log  
 FROM(SELECT 
         question_id
@@ -7,5 +5,7 @@ FROM(SELECT
         ,SUM(CASE WHEN action = 'show' THEN 1 ELSE 0 END) AS show_num
      FROM survey_log
      GROUP BY question_id) AS t
-WHERE answer_num/show_num =1
+ORDER BY (answer_num/show_num) DESC
+LIMIT 1
+
 
