@@ -1,4 +1,4 @@
--- Solution 1
+-- Solution 1: IN
 SELECT 
     Name   
 FROM 
@@ -8,7 +8,7 @@ WHERE ID IN(
      GROUP BY m.ManagerId 
       HAVING COUNT(m.ManagerId)>=5)
 
--- Solution 2
+-- Solution 2: INNER JOIN
 SELECT   
   m.name
 FROM Employee e
