@@ -8,7 +8,7 @@ WHERE TIV_2015 IN(
     AND (lat, lon) NOT IN(
         SELECT lat, lon FROM insurance GROUP BY lat, lon HAVING COUNT(*)>1);
         
--- Answer 2: use IN 
+-- Answer 2: use IN, use IN is faster than NOT IN
 select
 round(sum(tiv_2016),2) as tiv_2016
 from
