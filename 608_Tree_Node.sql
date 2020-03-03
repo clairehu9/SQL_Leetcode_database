@@ -36,7 +36,32 @@ CASE WHEN p_id IS null THEN 'Root'
      WHEN id not in (SELECT p_id FROM tree WHERE p_id IS NOT NULL) THEN 'Leaf'    -- add "WHERE p_id IS NOT NULL"
      ELSE 'Inner' END AS Type
 FROM Tree
+ORDER BY id;
+
+-- better solution:
+SELECT 
+    id,
+CASE WHEN p_id IS null THEN 'Root'
+     WHEN id in (SELECT p_id FROM tree) THEN 'Inner'
+     ELSE 'Leaf' END AS Type
+FROM Tree
 ORDER BY id
+;
+
+
+-- solution 3: use left join
+SELECT
+  t1.Id,
+  CASE
+   WHEN COUNT(t1.p_id) = 0 THEN "Root"
+   WHEN COUNT(t2.id) = 0 THEN "Leaf"
+   ELSE "Inner"
+  END AS Type
+FROM tree t1
+LEFT JOIN tree t2
+ON t1.Id = t2.p_id
+GROUP BY t1.Id
+ORDER BY t1.Id;
 
 
 
