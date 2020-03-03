@@ -50,6 +50,8 @@ ORDER BY id
 
 
 -- solution 3: use left join
+-- https://leetcode.com/problems/tree-node/discuss/104112/Solution-with-explanation%3A-CASE-%2B-LEFT-JOIN
+
 SELECT
   t1.Id,
   CASE
