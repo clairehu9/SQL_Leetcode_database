@@ -7,5 +7,22 @@ FROM
     SELECT accepter_id  AS id FROM request_accepted) AS t
 GROUP BY id
 ORDER BY num DESC
-LIMIT 1
+LIMIT 1;
+
+/*  1    display all id
+    1
+    2
+    3
+    2
+    3
+    3
+    4
+    
+    id  count(*)
+    1   2
+    2   2
+    3   3
+    4   1
+    
+    */
 
