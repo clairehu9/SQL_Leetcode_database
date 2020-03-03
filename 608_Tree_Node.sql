@@ -50,8 +50,6 @@ ORDER BY id
 
 
 -- solution 3: use left join
--- https://leetcode.com/problems/tree-node/discuss/104112/Solution-with-explanation%3A-CASE-%2B-LEFT-JOIN
-
 SELECT
   t1.Id,
   CASE
@@ -66,5 +64,6 @@ GROUP BY t1.Id
 ORDER BY t1.Id;
 
 
+-- solution 4:https://leetcode.com/problems/tree-node/discuss/104112/Solution-with-explanation%3A-CASE-%2B-LEFT-JOIN
 
 
