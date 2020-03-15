@@ -84,49 +84,52 @@ so, remove: activity_date > DATE_ADD('2019-06-30', INTERVAL -90 day) from subque
 [4, "2019-06-21"], 
 [5, "2019-03-01"]]}      -- looks good!
 
-So, my final query:
-
-
-SELECT
-  t.login_date
-  ,COUNT(user_id) AS user_count 
-FROM
-    (SELECT 
-         user_id
-        ,MIN(activity_date) AS login_date
-    FROM Traffic
-    WHERE activity='login' 
-    GROUP BY user_id) AS t
-WHERE t.login_date > DATE_ADD('2019-06-30', INTERVAL -90 day) 
-GROUP BY t.login_date
-;
-
-
-oooop, cannot use DATE_ADD('2019-06-30', INTERVAL -90 day),
-because it is not count the excat 90 day.
-use datediff('2019-06-30', login_date) <= 90
-
-
-SOOO, final version: 
-
-SELECT
-  t.login_date
-  ,COUNT(user_id) AS user_count 
-FROM
-    (SELECT 
-         user_id
-        ,MIN(activity_date) AS login_date
-    FROM Traffic
-    WHERE activity='login' 
-    GROUP BY user_id) AS t
-WHERE datediff('2019-06-30', login_date) <= 90
-GROUP BY t.login_date
-;
-
-
-
 */
 
+-- So, my final query: 
+
+
+SELECT
+  t.login_date
+  ,COUNT(user_id) AS user_count 
+FROM
+    (SELECT 
+         user_id
+        ,MIN(activity_date) AS login_date
+    FROM Traffic
+    WHERE activity='login' 
+    GROUP BY user_id) AS t
+WHERE t.login_date >= DATE_ADD('2019-06-30', INTERVAL -90 day) 
+GROUP BY t.login_date
+;
+
+--- 1496s
+
+
+SELECT
+  t.login_date
+  ,COUNT(user_id) AS user_count 
+FROM
+    (SELECT 
+         user_id
+        ,MIN(activity_date) AS login_date
+    FROM Traffic
+    WHERE activity='login' 
+    GROUP BY user_id) AS t
+WHERE datediff('2019-06-30', login_date) <= 90    
+GROUP BY t.login_date
+;
+
+-- 423s
+
+
+-- The DATE_ADD() function adds a time/date interval to a date and then returns the date.
+-- DATE_ADD(date, INTERVAL value addunit)
+
+The DateAdd function adds a number of units to a date/time value. 
+The result is a new date/time value. You can also subtract a number of units from a date/time value by specifying a negative value.
+
+The DateDiff function returns the difference between two date/time values. The result is a number of units.
 
 
 
