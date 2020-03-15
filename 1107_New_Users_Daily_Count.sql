@@ -99,7 +99,7 @@ FROM
     FROM Traffic
     WHERE activity='login' 
     GROUP BY user_id) AS t
-WHERE t.login_date >= DATE_ADD('2019-06-30', INTERVAL -90 day) 
+WHERE t.login_date BETWEEN DATE_ADD('2019-06-30', INTERVAL -90 day) AND '2019-06-30'
 GROUP BY t.login_date
 ;
 
