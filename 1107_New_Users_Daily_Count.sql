@@ -123,13 +123,13 @@ GROUP BY t.login_date
 -- 423s
 
 
--- The DATE_ADD() function adds a time/date interval to a date and then returns the date.
--- DATE_ADD(date, INTERVAL value addunit)
+/* The DATE_ADD() function adds a time/date interval to a date and then returns the date.
+DATE_ADD(date, INTERVAL value addunit)
 
 The DateAdd function adds a number of units to a date/time value. 
 The result is a new date/time value. You can also subtract a number of units from a date/time value by specifying a negative value.
 
-The DateDiff function returns the difference between two date/time values. The result is a number of units.
+The DateDiff function returns the difference between two date/time values. The result is a number of units. */
 
 
 
