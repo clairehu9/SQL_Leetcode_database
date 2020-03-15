@@ -1,4 +1,3 @@
-
 SELECT
   t.login_date
   ,COUNT(user_id) AS user_count 
@@ -9,13 +8,11 @@ FROM
     FROM Traffic
     WHERE activity='login' 
     GROUP BY user_id) AS t
-WHERE t.login_date > DATE_ADD('2019-06-30', INTERVAL -90 day) 
+WHERE datediff('2019-06-30', login_date) <= 90
 GROUP BY t.login_date
 ;
 
 
--- or use 
-where datediff('2019-06-30', login_date) <= 90
 
 
 /*
@@ -103,6 +100,29 @@ FROM
 WHERE t.login_date > DATE_ADD('2019-06-30', INTERVAL -90 day) 
 GROUP BY t.login_date
 ;
+
+
+oooop, cannot use DATE_ADD('2019-06-30', INTERVAL -90 day),
+because it is not count the excat 90 day.
+use datediff('2019-06-30', login_date) <= 90
+
+
+SOOO, final version: 
+
+SELECT
+  t.login_date
+  ,COUNT(user_id) AS user_count 
+FROM
+    (SELECT 
+         user_id
+        ,MIN(activity_date) AS login_date
+    FROM Traffic
+    WHERE activity='login' 
+    GROUP BY user_id) AS t
+WHERE datediff('2019-06-30', login_date) <= 90
+GROUP BY t.login_date
+;
+
 
 
 */
