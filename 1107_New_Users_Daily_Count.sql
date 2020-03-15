@@ -14,6 +14,10 @@ GROUP BY t.login_date
 ;
 
 
+-- or use 
+where datediff('2019-06-30', login_date) <= 90
+
+
 /*
 
     SELECT *
