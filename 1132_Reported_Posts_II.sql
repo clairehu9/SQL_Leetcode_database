@@ -100,4 +100,5 @@ select round(avg(
 
 ####################################################################
 ####################################################################
-Another solution: https://leetcode.com/problems/reported-posts-ii/discuss/361971/Two-straightforward-MySQL-solution-with-detailed-explanation
+Another solution: 
+https://leetcode.com/problems/reported-posts-ii/discuss/361971/Two-straightforward-MySQL-solution-with-detailed-explanation
