@@ -27,4 +27,20 @@ SELECT * FROM table1 WHERE (col_a,col_b) IN (SELECT col_x,col_y FROM table2)
 */
 
 
--- 
+-- MSSQL
+
+with unordered as (
+select top 1 with ties student_id, course_id, grade
+from Enrollments
+order by rank() over (partition by student_id order by grade desc, course_id)
+)
+select * from unordered order by student_id
+
+
+SELECT t.student_id, t.course_id, t.grade
+FROM 
+	(SELECT student_id, course_id, grade, 
+	rank() over (partition by student_id order by grade desc, course_id asc) as r 
+	FROM Enrollments) t
+WHERE t.r=1
+ORDER BY t.student_id asc
