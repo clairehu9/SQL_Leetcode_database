@@ -1,4 +1,4 @@
--- MS SQL
+-- MS SQL 289ms
 
 WITH cte AS
 (
@@ -20,7 +20,7 @@ FROM cte
 GROUP BY month, country
 
 
--- MySQL
+-- MySQL 498ms
 
 SELECT month, country, 
 SUM(CASE WHEN state = 'approved' THEN 1 ELSE 0 END) AS approved_count,
