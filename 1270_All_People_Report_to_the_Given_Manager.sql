@@ -6,7 +6,7 @@ join Employees e3
   on e3.employee_id=e2.manager_id 
 WHERE e3.manager_id = 1 AND e1.employee_id != 1
 
-/* 
+/*  题目问的不清楚，它问的是boss以下3个manager
 
 1 is the boss
 4 --> 2 --> 1,
