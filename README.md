@@ -20,3 +20,4 @@
 | 1204 | [Last Person to Fit in the Elevator](https://leetcode.com/problems/last-person-to-fit-in-the-elevator/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1204_Last_Person_to_Fit_in_the_Elevator) | Medium|
 | 1285 | [Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/) |  [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1285_Find_the_Start_and_End_Number_of_Continuous_Ranges.sql) | Medium |
 | 1308 | [Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/) |  [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1308_Running_Total_for_Different_Genders) | Medium |
+| 1321| [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1321_Restaurant_Growth.sql) | Medium |
