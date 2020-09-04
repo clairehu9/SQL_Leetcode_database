@@ -17,3 +17,7 @@ sql subquery里，不能有除了group by 和aggregation function 以外的cloum
 
 */
 
+
+select employee_id, count(*)over(partition by team_id) as team_size  
+from employee 
+
