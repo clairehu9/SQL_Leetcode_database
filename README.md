@@ -21,3 +21,5 @@
 | 1285 | [Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/) |  [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1285_Find_the_Start_and_End_Number_of_Continuous_Ranges.sql) | Medium |
 | 1308 | [Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/) |  [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1308_Running_Total_for_Different_Genders) | Medium |
 | 1321| [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1321_Restaurant_Growth.sql) | Medium |
+| 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/511_Game_Play_Analysis_I.sql) | Easy |
+| 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/512_Game_Play_Analysis_II.sql) | Easy |
