@@ -23,6 +23,10 @@ Last, when select player_id and device_id, the result will be [1,2], [3,1]
 
 but the expect answer is [1,3],[3,4]
 
+your having clause is useless. Take our the having clause, you will still find your code pass the trail test because of the way they structure the test case.
+
+When you use group by and have multiple things in one group, if you didn't say use any sum(), max() and etc, it automatically selects the first one in the group for you. That's where you got lucky. All the min date in the test case just happens to be the first one when that player_id appears.
+
 */
 
 select player_id, device_id
