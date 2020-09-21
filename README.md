@@ -23,3 +23,4 @@
 | 1321| [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1321_Restaurant_Growth.sql) | Medium |
 | 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/511_Game_Play_Analysis_I.sql) | Easy |
 | 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/512_Game_Play_Analysis_II.sql) | Easy |
+| 603| [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/603_Consecutive_Available_Seats.sql) | Easy |
