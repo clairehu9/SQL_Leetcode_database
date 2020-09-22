@@ -31,7 +31,8 @@
 
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
-| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
+| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
+| 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) 	| [MS SQL, MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1179_Reformat_Department_Table.sql)  | Easy |
 
 
 
