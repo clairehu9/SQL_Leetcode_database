@@ -63,6 +63,7 @@
 |----|------------------------------|--------------------------------------------------------------|------|
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/197_Rising_Temperature.sql)  | Easy |
 | 1113 | [Reported Posts](https://leetcode.com/problems/reported-posts/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1113_Reported_Posts.sql)  | Easy |
+| 1141 | [User Activity for the Past 30 Days I](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1141_User_Activity_for_the_Past_30_Days_I.sql) 	| [MySQL]()  | Easy |
 
 
 
