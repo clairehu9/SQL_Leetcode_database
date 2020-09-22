@@ -17,7 +17,7 @@ from Department
 group by id
 order by id
 
--- MS SQL
+-- MS SQL from shawlu
 select 
     id,
     jan as jan_revenue,
