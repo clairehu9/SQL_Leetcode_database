@@ -53,7 +53,7 @@
 |----|------------------------------|--------------------------------------------------------------|------|
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/176_Second_Highest_Salary.sql)  | Easy |
 | 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/586_Customer_Placing_the_Largest_Number_of_Orders.sql)  | Easy |
-| 607 | [Sales Person](https://leetcode.com/problems/sales-person/) 	| [MySQL] (https://github.com/clairehu9/SQL_Leetcode_database/blob/master/607_Sales_Person.sql)  | Easy |
+| 607 | [Sales Person](https://leetcode.com/problems/sales-person/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/607_Sales_Person.sql)  | Easy |
 | 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) 	| [MySQL] (https://github.com/clairehu9/SQL_Leetcode_database/blob/master/619_Biggest_Single_Number.sql)  | Easy |
 
 
