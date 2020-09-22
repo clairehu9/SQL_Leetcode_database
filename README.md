@@ -40,18 +40,24 @@
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
 | 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/181_Employees_Earning_More_Than_Their_Managers.sql)  | Easy |
+| 613 | [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/613_Shortest_Distance_in_a_Line.sql)  | Easy |
 
 
 
 
 
 
-### Aggregation
+### Sub-quary
 
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/176_Second_Highest_Salary.sql)  | Easy |
-| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/182_Duplicate_Emails.sql)  | Easy |
+| 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/586_Customer_Placing_the_Largest_Number_of_Orders.sql)  | Easy |
+| 607 | [Sales Person](https://leetcode.com/problems/sales-person/) 	| [MySQL] (https://github.com/clairehu9/SQL_Leetcode_database/blob/master/607_Sales_Person.sql)  | Easy |
+| 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) 	| [MySQL] (https://github.com/clairehu9/SQL_Leetcode_database/blob/master/619_Biggest_Single_Number.sql)  | Easy |
+
+
+
 
 
 
