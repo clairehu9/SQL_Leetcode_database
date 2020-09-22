@@ -27,11 +27,22 @@
 
 
 
-### Case
+### Case When
 
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
+
+
+
+### Inner Join
+
+| \# | Problems 					| Solutions 												   |  Level  |
+|----|------------------------------|--------------------------------------------------------------|------|
+| 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/181_Employees_Earning_More_Than_Their_Managers.sql)  | Easy |
+
+
+
 
 
 
@@ -44,10 +55,11 @@
 
 
 
-
-### Inner Join
-
+### Date
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
-| 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/181_Employees_Earning_More_Than_Their_Managers.sql)  | Easy |
+| 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/197_Rising_Temperature.sql)  | Easy |
+| 1113 | [Reported Posts](https://leetcode.com/problems/reported-posts/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1113_Reported_Posts.sql)  | Easy |
+
+
 
