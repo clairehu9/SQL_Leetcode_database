@@ -24,3 +24,30 @@
 | 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/511_Game_Play_Analysis_I.sql) | Easy |
 | 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/512_Game_Play_Analysis_II.sql) | Easy |
 | 603| [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/603_Consecutive_Available_Seats.sql) | Easy |
+
+
+
+### Case
+
+| \# | Problems 					| Solutions 												   |  Level  |
+|----|------------------------------|--------------------------------------------------------------|------|
+| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
+
+
+
+### Aggregation
+
+| \# | Problems 					| Solutions 												   |  Level  |
+|----|------------------------------|--------------------------------------------------------------|------|
+| 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/176_Second_Highest_Salary.sql)  | Easy |
+| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/182_Duplicate_Emails.sql)  | Easy |
+
+
+
+
+### Inner Join
+
+| \# | Problems 					| Solutions 												   |  Level  |
+|----|------------------------------|--------------------------------------------------------------|------|
+| 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/181_Employees_Earning_More_Than_Their_Managers.sql)  | Easy |
+
