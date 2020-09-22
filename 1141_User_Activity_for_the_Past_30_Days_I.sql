@@ -6,7 +6,7 @@ where datediff('2019-07-27',activity_date) < 30
 group by activity_date
 
  
-/*1. DATEDIFF(date1, date2), date 1 - date 2. Order matter. If */
+/*DATEDIFF(date1, date2), date 1 - date 2. Order matter. If */
 datediff(activity_date,'2019-07-27') < 30
 /* dateiff function doesn't work {"headers": ["day", "active_users"], "values": [["2019-06-25", 1], ["2019-07-20", 2], ["2019-07-21", 2]]}
 
