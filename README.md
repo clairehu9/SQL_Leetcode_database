@@ -43,6 +43,22 @@
 | 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/181_Employees_Earning_More_Than_Their_Managers.sql)  | Easy |
 | 613 | [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/613_Shortest_Distance_in_a_Line.sql)  | Easy |
 
+```rank()```attributes the same row number to the same value, leaving "holes"
+
+```dense_rank()```attributes the same row number to the same value, leaving no "holes"
+
+```row_number()```attributes a unique value to each row
+
+```lag()```previous value
+
+```lead()```next value
+
+```sum()``` -- running total
+
+```first_value```returns the frst value in the window
+
+```last_value```returns the last value in the window
+
 
 
 
