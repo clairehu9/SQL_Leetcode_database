@@ -74,7 +74,7 @@
 
 
 
-### Date
+### Date format
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/197_Rising_Temperature.sql)  | Easy |
