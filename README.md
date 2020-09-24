@@ -1,7 +1,7 @@
 # Analysis of Leetcode SQL 
 
 ---
-### Window Function
+### Window function
 
 | \# | Problems 					| Solutions 												   |  Level  |
 |----|------------------------------|--------------------------------------------------------------|------|
@@ -24,24 +24,6 @@
 | 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/511_Game_Play_Analysis_I.sql) | Easy |
 | 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/512_Game_Play_Analysis_II.sql) | Easy |
 | 603| [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL, MS SQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/603_Consecutive_Available_Seats.sql) | Easy |
-
-
-
-```rank()```attributes the same row number to the same value, leaving "holes"
-
-```dense_rank()```attributes the same row number to the same value, leaving no "holes"
-
-```row_number()```attributes a unique value to each row
-
-```lag()```previous value
-
-```lead()```next value
-
-```sum()``` running total
-
-```first_value```returns the frst value in the window
-
-```last_value```returns the last value in the window
 
 
 
@@ -83,3 +65,21 @@
 
 
 
+### Quik Note
+## Window 
+
+```rank()```attributes the same row number to the same value, leaving "holes"
+
+```dense_rank()```attributes the same row number to the same value, leaving no "holes"
+
+```row_number()```attributes a unique value to each row
+
+```lag()```previous value
+
+```lead()```next value
+
+```sum()``` running total
+
+```first_value```returns the frst value in the window
+
+```last_value```returns the last value in the window
