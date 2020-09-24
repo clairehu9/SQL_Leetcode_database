@@ -27,14 +27,6 @@
 
 
 
-### Case When
-
-| \# | Problems 					| Solutions 												   |  Level  |
-|----|------------------------------|--------------------------------------------------------------|------|
-| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
-| 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) 	| [MS SQL, MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1179_Reformat_Department_Table.sql)  | Easy |
-
-
 ```rank()```attributes the same row number to the same value, leaving "holes"
 
 ```dense_rank()```attributes the same row number to the same value, leaving no "holes"
@@ -50,6 +42,15 @@
 ```first_value```returns the frst value in the window
 
 ```last_value```returns the last value in the window
+
+
+
+### Case When
+
+| \# | Problems 					| Solutions 												   |  Level  |
+|----|------------------------------|--------------------------------------------------------------|------|
+| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) 	| [MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/610_Triangle_Judgement.sql)  | Medium |
+| 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) 	| [MS SQL, MySQL](https://github.com/clairehu9/SQL_Leetcode_database/blob/master/1179_Reformat_Department_Table.sql)  | Easy |
 
 
 
