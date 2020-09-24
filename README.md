@@ -66,7 +66,7 @@
 
 
 ### Quik Note
-## Window 
+
 
 ```rank()```attributes the same row number to the same value, leaving "holes"
 
