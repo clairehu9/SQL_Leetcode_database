@@ -1,3 +1,9 @@
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary!=(SELECT MAX(Salary) AS max_sal
+FROM Employee)
+
+
 SELECT IFNULL(
     (SELECT DISTINCT
         salary 
